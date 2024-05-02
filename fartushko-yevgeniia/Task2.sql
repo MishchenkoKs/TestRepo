@@ -3,4 +3,4 @@
 UPDATE users
 SET
     is_blocked = false
-WHERE country = 'Germany'
+WHERE country != 'Germany'
