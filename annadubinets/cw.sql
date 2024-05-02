@@ -1,4 +1,5 @@
 Задача. Удалить всех юзеров из China
 
-DELETE FROM Users
-WHERE Country = 'China';
+delete from users
+where
+country = 'China';
