@@ -2,4 +2,4 @@ update users
 set
 is_blocked = false
 where
-country = "Germany"git
+country != "Germany"git
